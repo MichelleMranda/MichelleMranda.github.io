@@ -1,0 +1,165 @@
+body{
+    height: 100%;
+  margin: 20px;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imagenpp{
+     display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #050505;
+  color: #ede8ee;
+  padding: 10px;
+  
+}
+
+.imagenpp ul{
+    display: flex;
+    flex-direction: row;
+    font-family: "Portafolio1";
+    color: #0f0f0f;
+    font-size: 30px;
+    margin-bottom: 40px; 
+  
+}
+
+.imagenpp ul li{
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 60px;
+
+ }
+  .col1{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+}
+  .row {
+    flex: 1;
+    grid-row: 1;
+  }
+
+  .col-md-4, .col-md-8 {
+    padding: 10px;
+}
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    height: 100vh;
+}
+
+
+h1{
+    font-size: 200px;
+    color: rgb(2, 2, 2);
+    font-family: "Portafolio1";
+    text-align: center; 
+}
+
+h2{
+    font-size: 80px;
+    color: #000000;
+    font-family: "firma";
+    position: relative;
+      left: 1050px;
+}
+
+.imagen-centrada {
+    display: block;
+    margin: auto;
+  }
+
+h3{
+    font-size: 150px;
+    color: #ffffff;
+    font-family: "Portafolio1";
+    text-align: center;
+}
+
+.presentacion{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 100%; 
+    
+
+}
+
+.ilustra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #000000;
+}
+
+.ilustraciones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ilus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.ilus p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+h5{
+    font-size: 50px;
+    color: #000000;
+    font-family: "Portafolio1";
+    text-align: center;
+}
+
+footer{
+  background-color: #000000;
+  width: 100%;
+}
+
+h4{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
